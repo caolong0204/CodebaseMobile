@@ -20,7 +20,12 @@ if linkage != nil
   Pod::UI.puts "Configuring Pod with #{linkage}ally linked Frameworks".green
   use_frameworks! :linkage => linkage.to_sym
 end
-
+project 'CodeBaseMobile', {
+  'DebugDev' => :debug,
+  'Debug' => :debug,
+  'ReleaseDev' => :release,
+  'Release' => :release,
+}
 target 'CodeBaseMobile' do
   config = use_native_modules!
 

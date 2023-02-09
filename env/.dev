@@ -1,0 +1,4 @@
+APP_ENV=Dev
+API_URL=https://google.dev.com
+APP_DISPLAY_NAME=DevAppBase
+ASSETCATALOG_COMPILER_APPICON_NAME=AppIcon-Dev
