@@ -16,3 +16,5 @@
   **[] $VALUES;
   public *;
 }
+
+-keep public class com.horcrux.svg.** {*;}

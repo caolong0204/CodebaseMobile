@@ -1,1 +1,1 @@
-export const ImageAssets = {};
+export const LottieAsstts = {};
